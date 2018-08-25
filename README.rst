@@ -83,7 +83,7 @@ some manual setup is still required.
 To create the database, you need the ``sqlite3`` command.
 On Ubuntu/Debian, ``sqlite3`` can by installed by executing::
 
-  sudo apt-get install sqlite3
+  sudo apt-get install php5-sqlite
 
 You should then execute the provided SQL batch for SQLite *with the same user
 as your web server* (by using ``su`` or ``sudo`` if necessary)::
